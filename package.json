@@ -1,6 +1,6 @@
 {
   "name": "react-selectorer",
-  "version": "0.4.5",
+  "version": "1.0.0",
   "author": "Casey Foster <c@sey.me>",
   "license": "MIT",
   "main": "build/index.js",
