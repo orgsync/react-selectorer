@@ -174,6 +174,7 @@ export default class extends Component {
   render() {
     const {value} = this.props;
     const {isOpen} = this.state;
+    this.shouldFocus = false;
     const showValue = !isOpen && value != null;
     return showValue ? this.renderValue() : this.renderSelector();
   }
